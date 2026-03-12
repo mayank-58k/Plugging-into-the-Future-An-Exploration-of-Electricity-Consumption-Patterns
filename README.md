@@ -1,35 +1,39 @@
 # Electricity Usage Trend Analysis with Tableau
-Project Introduction
 
-This project focuses on examining electricity consumption data to uncover patterns, variations, and usage behavior over time. By applying data visualization techniques in Tableau, raw electricity data is transformed into meaningful visual insights that help understand consumption distribution and trends.
+## Overview
 
-The project demonstrates how analytical tools can simplify large datasets and present them in an interactive and user-friendly format.
+Electricity consumption data often contains hidden patterns that can help understand usage behavior, peak demand periods, and seasonal variations.
 
-Project Goals
+This project analyzes electricity usage data and transforms raw datasets into meaningful insights using **Tableau dashboards** and **data preprocessing techniques**.
 
-The major goals of this project are:
+The goal of the project is to present electricity consumption patterns in an **interactive and visually intuitive format**, enabling users to explore trends and compare usage across different time periods.
 
-Examine electricity consumption patterns across time
+---
 
-Detect high usage periods and seasonal changes
+## Objectives
 
-Present electricity data visually for easier interpretation
+* Analyze electricity consumption trends over time
+* Identify peak usage periods and seasonal variations
+* Transform raw electricity data into meaningful visual insights
+* Develop an interactive Tableau dashboard for dynamic data exploration
 
-Develop an interactive dashboard that allows dynamic exploration of the dataset
+---
 
-Technologies and Tools Used
+## Technologies Used
 
-The following tools and technologies were utilized during the development of this project:
+| Tool / Technology                 | Purpose                                   |
+| --------------------------------- | ----------------------------------------- |
+| **Tableau**                       | Data visualization and dashboard creation |
+| **MySQL**                         | Data storage and querying                 |
+| **Python**                        | Data preprocessing and cleaning           |
+| **CSV Dataset**                   | Primary data source                       |
+| **Data Visualization Techniques** | Graphical analysis and insight generation |
 
-Tableau – for creating visual dashboards and charts
+---
 
-MySQL – for storing and querying electricity data
+## Project Structure
 
-CSV Dataset – used as the primary data source
-
-# Data Visualization Techniques – for graphical analysis
-
-Project Directory Structure
+```
 Electricity-Usage-Analysis
 │
 ├── Dataset/
@@ -51,91 +55,117 @@ Electricity-Usage-Analysis
 │   └── electricity_dashboard.twbx
 │
 └── README.md
+```
 
+---
 
-# Data Processing Workflow
+## Data Processing Workflow
 
-The project follows several steps to prepare and visualize the data:
+The project follows a structured workflow for preparing and visualizing electricity consumption data:
 
-Retrieve electricity consumption data from the database
+1. Retrieve electricity consumption data from the database
+2. Clean and preprocess the dataset
+3. Handle missing or inconsistent values
+4. Convert processed data into CSV format
+5. Import the dataset into Tableau
+6. Create charts and visualizations
+7. Combine visualizations into an interactive dashboard
+8. Analyze trends and consumption patterns
 
-Clean the dataset by handling missing or incorrect values
+---
 
-Convert the processed data into CSV format
+## Dashboard Features
 
-Import the dataset into Tableau
+The Tableau dashboard provides several analytical capabilities:
 
-Build visual charts and graphs
+* Visualization of electricity consumption trends
+* Monthly electricity usage comparison
+* Category-based consumption analysis
+* Interactive filters for data exploration
+* Region-based electricity usage comparison
 
-Combine visual elements into an interactive dashboard
+These features allow users to easily interpret patterns and trends in electricity consumption.
 
-Analyze insights obtained from the visualizations
+---
 
-Dashboard Capabilities
+## Screenshots
 
-The Tableau dashboard developed in this project includes:
+Example views from the Tableau dashboard:
 
-Visualization of electricity usage trends
+* Dashboard overview
+* Consumption trend visualization
+* Regional comparison analysis
+* Data extraction process
 
-Comparison of electricity consumption across different months
+(See the **Dashboard_Screenshots** folder for images.)
 
-Category-based consumption analysis
+---
 
-Interactive filters for exploring the dataset
-
-These features allow users to quickly understand how electricity usage changes over time.
-
-Demonstration Video
+## Demonstration Video
 
 Project explanation video:
-_________________________________
 
+*Link will be added here*
 
-#  Steps to Use the Project
+---
 
-To explore the project dashboard:
+## How to Run the Project
 
-Download the dataset from the repository
+Follow these steps to explore the dashboard:
 
-Launch Tableau Desktop
+1. Clone the repository
 
-Import the provided CSV dataset
+```
+git clone https://github.com/mayank-58k/Plugging-into-the-Future-An-Exploration-of-Electricity-Consumption-Patterns.git
+```
 
-Open the Tableau workbook file (.twbx)
+2. Download or open the dataset from the **Dataset** folder.
 
-Interact with the dashboard to analyze electricity consumption patterns
+3. Launch **Tableau Desktop**.
 
-Skills Gained from the Project
+4. Open the provided Tableau workbook file:
 
-During the development of this project, the following skills were applied and improved:
+```
+Tableau_Files/electricity_dashboard.twbx
+```
 
-Data preprocessing and cleaning
+5. Interact with the dashboard to explore electricity consumption patterns.
 
-Data visualization using Tableau
+---
 
-Interactive dashboard design
+## Skills Demonstrated
 
-Analytical interpretation of data trends
+This project demonstrates the following technical skills:
 
-Possible Future Enhancements
+* Data preprocessing and cleaning
+* Data visualization using Tableau
+* Dashboard design and user interaction
+* Analytical interpretation of data trends
+* Data-driven decision making
 
-Future development of the project may include:
+---
 
-Integration of real-time electricity consumption data
+## Future Improvements
 
-Direct connection between Tableau and the MySQL database
+Possible enhancements for the project include:
 
-Additional filters and advanced visual analytics
+* Integration with **real-time electricity consumption data**
+* Direct **MySQL–Tableau database connection**
+* Advanced filtering and analytical visualizations
+* Implementation of **predictive analytics for electricity demand**
 
-Predictive analysis of electricity demand
-
-
-# Electricity Usage Trend Analysis with Tableau
+---
 
 ## Project Team
 
-- Vaibhav Tripathi – Team Lead  
-- Anshika Dewaliya – Team Member  
-- Shahnawaj Khan – Team Member  
-- Sumantra Singh – Team Member  
-- Mayank Bamne – Team Member
+* **Vaibhav Tripathi** – Team Lead
+* **Anshika Dewaliya** – Team Member
+* **Shahnawaj Khan** – Team Member
+* **Sumantra Singh** – Team Member
+* **Mayank Bamne** – Team Member
+
+---
+
+## License
+
+This project is developed for **educational and research purposes**.
